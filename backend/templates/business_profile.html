@@ -262,7 +262,7 @@
          {% if error %}
              <p class="error">{{ error }}</p>
          {% endif %}
-         <form method="POST" id="business-form">
+         <form method="POST" action="{% url 'business_profile' %}" id="business-form">
             {% csrf_token %}
             <div class="form-group">
                 <label for="business_name">Business Name</label>

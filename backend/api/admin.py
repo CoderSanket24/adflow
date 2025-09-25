@@ -10,4 +10,3 @@ admin.site.register(UserAdAccount)
 admin.site.register(BusinessProfile)
 admin.site.register(Campaign)
 admin.site.register(Keyword)
-
