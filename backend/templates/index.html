@@ -407,7 +407,7 @@
                     <li><span class="check-icon">✓</span> Shopping Ads</li>
                 </ul>
          
-                <a href="http://127.0.0.1:8000/api/google/connect/" class="connect-button">Connect →</a>
+                <a href="{% url 'google-initiate' %}" class="connect-button">Connect →</a>
             </div>
             
             <!-- Meta Ads Card -->
@@ -427,7 +427,7 @@
                     <li><span class="check-icon">✓</span> Messenger Ads</li>
                     <li><span class="check-icon">✓</span> Audience Network</li>
                 </ul>
-                <a href="http://127.0.0.1:8000/api/meta/connect/" class="connect-button">Connect →</a>
+                <a href="{% url 'meta-initiate' %}" class="connect-button">Connect →</a>
             </div>
 
             <!-- Amazon Advertising Card -->
@@ -446,7 +446,7 @@
                     <li><span class="check-icon">✓</span> Display Ads</li>
                     <li><span class="check-icon">✓</span> Video Ads</li>
                 </ul>
-                <a href="http://127.0.0.1:8000/api/amazon/connect/" class="connect-button">Connect →</a>
+                <a href="{% url 'amazon-initiate' %}" class="connect-button">Connect →</a>
             </div>
 
             <!-- Microsoft Ads Card -->
